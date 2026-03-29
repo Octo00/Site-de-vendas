@@ -9,6 +9,7 @@ Esse readme foi feito para orientar a como criar um repositório local e reposit
  Agora o repositório está criado localmente no seu computador, vc pode modificar o seu código mas cuidado nada está salvo completamente.
 
 -2 Veja as mudanças feitas no seu código e os novos arquivos:
+
   Esse comando mostra as mudanças feitas no arquivo
 ```bash
   git diff nomedoarquivo
@@ -18,6 +19,7 @@ Esse readme foi feito para orientar a como criar um repositório local e reposit
     git status
 ```
 -3 Fazer o stage:
+
 O stage é basicamente uma área temporaria para poder organizar o seu código, o stage é temporario porque depois de um commit ser feito ele é "limpo". No stage as alterações são add antes de serem confirmadas.
 
 Esse comando adiciona todos os arquivo do projeto que não estão no stage
