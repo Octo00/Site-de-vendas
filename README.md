@@ -32,7 +32,7 @@ Em casos que vc precisa apenas atualizar um arquivo no stage de forma unitaria u
 git add nomedoarquivo
 ```
 
--4 Fazer o commit:
+-4 Configurar nome de usuario:
 
 Primeiro devemos configurar o nome de usuario e o email antes de fazer o commit
 
@@ -45,3 +45,7 @@ Configura o email
 ```bash
 git --global user.name "email"
 ```
+
+##-5 Criando o repositorio
+
+Após configurar o seu email e nome de usuario, abra o seu navegador(Firefox, Chrome, Brave.Etc) e entre no seu perfil do github e crie um novo repositório
