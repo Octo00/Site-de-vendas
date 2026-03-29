@@ -26,4 +26,9 @@ Esse comando adiciona todos os arquivo do projeto que não estão no stage
 ```bash
     git add.
 ```
+Em casos que vc precisa apenas atualizar um arquivo no stage de forma unitaria use esse comando
+
+```bash
+git add nomedoarquivo
+```
 
