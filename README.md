@@ -92,6 +92,6 @@ Resumo dos principais comandos utilizados no dia a dia:
 git add .
 git commit -m "mensagem"
 git push
-
+```
 
 # Créditos: Octo00/Wizard cat
