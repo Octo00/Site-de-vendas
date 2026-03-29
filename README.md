@@ -24,7 +24,7 @@ O stage é basicamente uma área temporaria para poder organizar o seu código, 
 
 Esse comando adiciona todos os arquivo do projeto que não estão no stage
 ```bash
-git add.
+git add .
 ```
 Em casos que vc precisa apenas atualizar um arquivo no stage de forma unitaria use esse comando
 
@@ -32,3 +32,16 @@ Em casos que vc precisa apenas atualizar um arquivo no stage de forma unitaria u
 git add nomedoarquivo
 ```
 
+-4 Fazer o commit:
+
+Primeiro devemos configurar o nome de usuario e o email antes de fazer o commit
+
+Configura o nome de usuario
+```bash
+git --global user.name "nome de usuario"
+```
+
+Configura o email
+```bash
+git --global user.name "email"
+```
