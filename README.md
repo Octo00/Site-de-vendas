@@ -82,3 +82,14 @@ git remote add origin https://github.com/seu-usuario/seu-repositorio.git
 git push -u origin main
 ```
 
+
+## 9. Resuminho 
+Fluxo básico do Git
+
+Resumo dos principais comandos utilizados no dia a dia:
+
+```bash
+git add .
+git commit -m "mensagem"
+git push
+
