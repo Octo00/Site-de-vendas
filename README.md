@@ -1,4 +1,4 @@
-# Site-de-vendas
+# Guia para fazer o commit e push para repositorio
 Esse readme foi feito para orientar a como criar um repositório local e repositório remoto(Github).
 
 ## Crie ou selecione a sua aplicação
