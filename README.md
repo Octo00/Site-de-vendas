@@ -1,4 +1,4 @@
-# Guia para fazer o commit e push para repositorio
+# Guia para fazer o commit e push para repositório
 Esse readme foi feito para orientar a como criar um repositório local e repositório remoto(Github).
 
 ## Crie ou selecione a sua aplicação
@@ -20,23 +20,23 @@ git status
 ```
 ### 3. Fazer o stage:
 
-O stage é basicamente uma área temporaria para poder organizar o seu código, o stage é temporario porque depois de um commit ser feito ele é "limpo". No stage as alterações são add antes de serem confirmadas.
+O stage é basicamente uma área temporária para poder organizar o seu código, o stage é temporário porque depois de um commit ser feito ele é "limpo". No stage as alterações são add antes de serem confirmadas.
 
 Esse comando adiciona todos os arquivo do projeto
 ```bash
 git add .
 ```
-Esse comando add um arquivo especifico
+Esse comando add um arquivo específico
 
 ```bash
 git add nomedoarquivo
 ```
 
-### 4. Configurar nome de usuario:
+### 4. Configurar nome de usuário:
 
-Primeiro devemos configurar o nome de usuario e o email antes de fazer o commit pois esses dados serão associados a todos os commits realizados.
+Primeiro devemos configurar o nome de usuário e o email antes de fazer o commit, pois esses dados serão associados a todos os commits realizados.
 
-Configura o nome de usuario:
+Configura o nome de usuário:
 ```bash
 git config --global user.name "nome de usuario"
 ```
@@ -58,17 +58,17 @@ Sempre descreva oq tem no commit ou a modificação feita nele para estar sinali
 
 ## Extra!
 
-### 6. Criando o repositorio remoto no github
+### 6. Criando o repositório remoto no github
 
-Após configurar o seu email e nome de usuario, abra o seu navegador(Firefox, Chrome, Brave.Etc) entre no seu perfil do github, abra a aba repositorios e crie um novo deixando o nome e descrição a suas descrições.
+Após configurar o seu email e nome de usuário, abra o seu navegador(Firefox, Chrome, Brave.Etc) entre no seu perfil do github, abra a aba repositórios e crie um novo, deixando o nome e descrição para as suas descrições.
 
 
 ### 7. Criar um token privado
-No git para fazer um push para um repositório remoto(Github,gitlab,gitness) é preciso de um token unico para realizar o push. Caso vc já tenha o token, ótimo, mas caso não tenha acesse:
+No git para fazer um push para um repositório remoto(Github,gitlab,gitness) é preciso de um token único para realizar o push. Caso você já tenha o token, ótimo, mas caso não tenha acesse:
 
 Configurações > Configurações de desenvolvedor > Tokens de acesso pessoais > Tokens(Classic)
 
-Lá vc podera configurar o seu token e deixa-lo com os privilégios e funções necessarias para fazer um push e além.
+Lá vc podera configurar o seu token e deixá-lo com os privilégios e funções necessárias para fazer um push e além.
 
 !!!!!!!!!!!!!!!!!!!! Salve esse token!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -95,4 +95,5 @@ git push
 ```
 
 Créditos: Octo00/Wizard cat ⚡🐱⚡
+
 
